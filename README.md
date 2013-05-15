@@ -32,31 +32,31 @@ Returns all details for the specified job
 ####jobs.proposals(job_id)
 Returns all proposals associated with the specified job
 ### Project
-####project.create(params)
+####projects.create(params)
 Submit a new job to Elance.
-####project.payment(params)
+####projects.payment(params)
 Submit a new ad-hoc payment for a job.
 ### Workroom
-####workroom.find(bid_id)
-Requests detail information for a Workroom.
-####workroom.proposals(bid_id)
-Requests a list of all outstanding actions for a Workroom.
-####workroom.contractors(bid_id)
-Requests a list of all contractors who have access to this Workroom.
-####workroom.inbox(bid_id)
+####workrooms.find(bid_id)
+Requests detail information for a workrooms.
+####workrooms.proposals(bid_id)
+Requests a list of all outstanding actions for a workrooms.
+####workrooms.contractors(bid_id)
+Requests a list of all contractors who have access to this workrooms.
+####workrooms.inbox(bid_id)
 Requests the most recent unread messages and notifications in the Workroom, including new messages from other Workroom members and important project notifications.
-####workroom/{bidId}/messages
+####workrooms.messages(bid_id)
 Requests a list of all messages sent between Workroom members.
-####workroom.proposal(bid_id)
+####workrooms.proposal(bid_id)
 Requests a description of the original bid on which the Workroom is based.
-####workroom.status_reports(bid_id)
-Requests update reports filed by contractors against this project.
-####workroom.timesheets(bid_id)
-Requests reports on hours worked that have been filed by contractors against this project.
-####workroom.users(bid_id)
-Requests a list of all users who belong to this workroom.
-####workroom.workview(bid_id, user_id)
-Requests WorkView™ information for the specified user on the specified project.
+####workrooms.status_reports(bid_id)
+Requests update reports filed by contractors against this projects.
+####workrooms.timesheets(bid_id)
+Requests reports on hours worked that have been filed by contractors against this projects.
+####workrooms.users(bid_id)
+Requests a list of all users who belong to this workrooms.
+####workrooms.workview(bid_id, user_id)
+Requests WorkView™ information for the specified user on the specified projects.
 ### Profiles
 ####profiles.profile
 Requests private and public details from the public profile of the currently logged in contractor, relative to the specified category.
