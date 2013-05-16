@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
-require 'awesome_print'
-
 module Elance
   class Workroom < Base
 

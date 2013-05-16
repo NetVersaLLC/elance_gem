@@ -3,7 +3,6 @@
 
 $LOAD_PATH << File.dirname(__FILE__) unless $LOAD_PATH.include?(File.dirname(__FILE__))
 
-require 'awesome_print'
 require 'httparty'
 require "base64"
 require 'uri'

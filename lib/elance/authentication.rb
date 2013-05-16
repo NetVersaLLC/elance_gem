@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
-require 'awesome_print'
 require 'curb'
 require "base64"
 require 'uri'
