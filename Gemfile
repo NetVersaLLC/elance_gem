@@ -4,3 +4,4 @@ gemspec
 
 gem 'httparty'
 gem 'active_support'
+gem 'curb'

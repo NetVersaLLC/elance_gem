@@ -29,9 +29,9 @@ module Elance
       c
     end
 
-    def get_access_token(client_id, client_secret, auth_code)
+    def get_access_token(auth_code)
       c = self.init_curl( @@access_token_url )
-      c.headers['Authorization'] = "Basic "+ Base64.encode64(client_id + ":" + client_secret)
+      c.headers['Authorization'] = "Basic "+ Base64.encode64(@client_id + ":" + @client_secret)
       c.http_post(Curl::PostField.content('code', URI.escape(auth_code)),
                         Curl::PostField.content('grant_type', 'authorization_code'))
       res = c.perform

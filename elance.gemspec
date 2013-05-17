@@ -1,11 +1,12 @@
 Gem::Specification.new do |s|
   s.name = 'elance'
-  s.version = '1.0.1'
+  s.version = '1.0.2'
 
   s.date = '2013-05-15'
   s.summary = "Elance API"
   s.description = "A gem for utilizing the Elance API"
   s.authors = ["David Collazo", "Jonathan Jeffus"]
+  s.licenses = ['MIT']
   s.email = 'jonathan.jeffus@netversa.com'
   s.files = [
     "elance.gemspec",
@@ -24,4 +25,5 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/NetVersaLLC/elance_gem'
   s.add_dependency('httparty')
   s.add_dependency('activesupport')
+  s.add_dependency('curb')
 end
