@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
     "lib/elance/project.rb",
     "lib/elance/workroom.rb"
   ]
-  s.homepage = 'https://github.com/dcollazo/elance_gem'
+  s.homepage = 'https://github.com/NetVersaLLC/elance_gem'
   s.add_dependency('httparty')
   s.add_dependency('activesupport')
 end
