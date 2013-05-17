@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'elance'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
 
   s.date = '2013-05-15'
   s.summary = "Elance API"
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = 'jonathan.jeffus@netversa.com'
   s.files = [
     "elance.gemspec",
-    "GEMFILE",
+    "Gemfile",
     "LICENSE.txt",
     "README.md",
     "lib/elance.rb",
