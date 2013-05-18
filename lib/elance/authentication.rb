@@ -17,8 +17,8 @@ module Elance
       @response_code = 0
     end
 
-    def request_access_code(client_id, redirect_url)
-      @@authorize_url + "?client_id=" + client_id + "&response_type=code&redirect_uri=" + redirect_url
+    def request_access_code(redirect_url)
+      @@authorize_url + "?client_id=" + @client_id + "&response_type=code&redirect_uri=" + redirect_url
     end
 
     def init_curl(url)
