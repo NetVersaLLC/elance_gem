@@ -14,6 +14,7 @@ require 'elance/group.rb'
 require 'elance/profile'
 require 'elance/project'
 require 'elance/workroom'
+require 'elance/authentication'
 
 module Elance
     VERSION = "0.0.1"
